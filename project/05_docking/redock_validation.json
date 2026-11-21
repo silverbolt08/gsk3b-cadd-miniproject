@@ -1,0 +1,77 @@
+{
+ "ligand": "AR-A014418 (TMU in 1Q5K)",
+ "smiles": "COc1ccc(CNC(=O)Nc2ncc([N+](=O)[O-])s2)cc1",
+ "reference_atoms": 21,
+ "receptors": {
+  "crystal": {
+   "top_pose_score": -7.973,
+   "top_pose_rmsd": 9.17,
+   "best_rmsd_any_mode": 1.33,
+   "best_rmsd_mode": 12,
+   "score_of_best_rmsd_mode": -6.805,
+   "all_scores": [
+    -7.973,
+    -7.806,
+    -7.492,
+    -7.391,
+    -7.298,
+    -7.28,
+    -7.233,
+    -7.199,
+    -7.127,
+    -7.076,
+    -6.863,
+    -6.805
+   ],
+   "all_rmsd": [
+    9.17,
+    9.08,
+    9.43,
+    13.5,
+    3.83,
+    7.87,
+    9.2,
+    7.91,
+    7.86,
+    13.44,
+    8.22,
+    1.33
+   ]
+  },
+  "model": {
+   "top_pose_score": -7.141,
+   "top_pose_rmsd": 8.85,
+   "best_rmsd_any_mode": 1.64,
+   "best_rmsd_mode": 12,
+   "score_of_best_rmsd_mode": -6.285,
+   "all_scores": [
+    -7.141,
+    -7.019,
+    -6.826,
+    -6.766,
+    -6.708,
+    -6.523,
+    -6.472,
+    -6.47,
+    -6.468,
+    -6.415,
+    -6.325,
+    -6.285
+   ],
+   "all_rmsd": [
+    8.85,
+    8.81,
+    9.01,
+    3.22,
+    9.24,
+    8.81,
+    7.51,
+    9.64,
+    5.79,
+    7.96,
+    1.71,
+    1.64
+   ]
+  }
+ }
+}

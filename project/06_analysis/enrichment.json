@@ -1,0 +1,30 @@
+{
+ "n_compounds": 138,
+ "n_actives": 11,
+ "roc_auc_model": 0.645,
+ "roc_auc_crystal": 0.64,
+ "bedroc20_model": 0.285,
+ "bedroc20_crystal": 0.159,
+ "EF1pct_model": {
+  "EF": 0.0,
+  "actives_found": 0,
+  "n_top": 1
+ },
+ "EF5pct_model": {
+  "EF": 3.58,
+  "actives_found": 2,
+  "n_top": 7
+ },
+ "EF10pct_model": {
+  "EF": 2.69,
+  "actives_found": 3,
+  "n_top": 14
+ },
+ "model_vs_crystal_pearson": 0.889,
+ "model_vs_crystal_spearman": 0.892,
+ "mean_score_shift_model_minus_crystal": 0.17,
+ "actives_n_with_potency": 11,
+ "score_vs_pchembl_pearson": -0.017,
+ "score_vs_pchembl_spearman": 0.155,
+ "alerts_in_top40": 18
+}

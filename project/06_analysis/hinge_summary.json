@@ -1,0 +1,230 @@
+{
+ "n_actives": 11,
+ "actives_hinge": 0,
+ "n_hits": 20,
+ "hits_hinge": 10,
+ "per_compound": {
+  "ACT07": {
+   "name": "Indirubin-3'-Monoxime",
+   "set": "known_active",
+   "score": -8.936,
+   "hinge": []
+  },
+  "ACT09": {
+   "name": "Tideglusib",
+   "set": "known_active",
+   "score": -8.678,
+   "hinge": []
+  },
+  "ACT08": {
+   "name": "SB-415286",
+   "set": "known_active",
+   "score": -8.547,
+   "hinge": []
+  },
+  "ACT03": {
+   "name": "Laduviglusib",
+   "set": "known_active",
+   "score": -8.275,
+   "hinge": []
+  },
+  "ACT06": {
+   "name": "SB-216763",
+   "set": "known_active",
+   "score": -7.532,
+   "hinge": []
+  },
+  "ACT10": {
+   "name": "AR-A014418",
+   "set": "known_active",
+   "score": -7.141,
+   "hinge": []
+  },
+  "ACT02": {
+   "name": "Alsterpaullone",
+   "set": "known_active",
+   "score": -7.116,
+   "hinge": []
+  },
+  "ACT01": {
+   "name": "LY-2090314",
+   "set": "known_active",
+   "score": -7.042,
+   "hinge": []
+  },
+  "ACT05": {
+   "name": "Staurosporine",
+   "set": "known_active",
+   "score": -6.953,
+   "hinge": []
+  },
+  "ACT04": {
+   "name": "Kenpaullone",
+   "set": "known_active",
+   "score": -6.827,
+   "hinge": []
+  },
+  "ACT11": {
+   "name": "TDZD-8",
+   "set": "known_active",
+   "score": -6.221,
+   "hinge": []
+  },
+  "LIG118": {
+   "name": "Withaferin A",
+   "set": "B_natural_product",
+   "score": -9.299,
+   "hinge": [
+    133
+   ]
+  },
+  "LIG074": {
+   "name": "Niraparib",
+   "set": "A_approved_drug",
+   "score": -9.223,
+   "hinge": []
+  },
+  "LIG059": {
+   "name": "Capmatinib",
+   "set": "A_approved_drug",
+   "score": -9.198,
+   "hinge": []
+  },
+  "LIG017": {
+   "name": "Sitagliptin",
+   "set": "A_approved_drug",
+   "score": -8.655,
+   "hinge": []
+  },
+  "LIG056": {
+   "name": "Palonosetron",
+   "set": "A_approved_drug",
+   "score": -8.564,
+   "hinge": []
+  },
+  "LIG068": {
+   "name": "Tofacitinib",
+   "set": "A_approved_drug",
+   "score": -8.478,
+   "hinge": [
+    135
+   ]
+  },
+  "LIG052": {
+   "name": "Rivaroxaban",
+   "set": "A_approved_drug",
+   "score": -8.455,
+   "hinge": []
+  },
+  "LIG093": {
+   "name": "Hesperetin",
+   "set": "B_natural_product",
+   "score": -8.381,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG090": {
+   "name": "Myricetin",
+   "set": "B_natural_product",
+   "score": -8.374,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG070": {
+   "name": "Buspirone",
+   "set": "A_approved_drug",
+   "score": -8.364,
+   "hinge": []
+  },
+  "LIG099": {
+   "name": "Rosmarinic Acid",
+   "set": "B_natural_product",
+   "score": -8.36,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG084": {
+   "name": "Luteolin",
+   "set": "B_natural_product",
+   "score": -8.303,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG055": {
+   "name": "Teneligliptin",
+   "set": "A_approved_drug",
+   "score": -8.245,
+   "hinge": []
+  },
+  "LIG051": {
+   "name": "Cilostazol",
+   "set": "A_approved_drug",
+   "score": -8.227,
+   "hinge": []
+  },
+  "LIG086": {
+   "name": "Fisetin",
+   "set": "B_natural_product",
+   "score": -8.212,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG096": {
+   "name": "Catechin",
+   "set": "B_natural_product",
+   "score": -8.202,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG036": {
+   "name": "Ezetimibe",
+   "set": "A_approved_drug",
+   "score": -8.173,
+   "hinge": []
+  },
+  "LIG083": {
+   "name": "Quercetin",
+   "set": "B_natural_product",
+   "score": -8.167,
+   "hinge": [
+    133,
+    135
+   ]
+  },
+  "LIG094": {
+   "name": "Baicalein",
+   "set": "B_natural_product",
+   "score": -8.15,
+   "hinge": []
+  },
+  "LIG114": {
+   "name": "Oleuropein",
+   "set": "B_natural_product",
+   "score": -8.141,
+   "hinge": [
+    133,
+    135
+   ]
+  }
+ },
+ "top_residues": [
+  "Asp200",
+  "Val70",
+  "Leu188",
+  "Ile62",
+  "Tyr134",
+  "Ala83"
+ ]
+}

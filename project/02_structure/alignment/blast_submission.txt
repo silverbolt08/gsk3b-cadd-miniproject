@@ -1,0 +1,22 @@
+NCBI BLASTp submission record
+=============================
+Service   : https://blast.ncbi.nlm.nih.gov/Blast.cgi  (URL API, CMD=Put)
+Program   : blastp
+Database  : pdb
+Query     : UniProt P49841 (GSK3B_HUMAN), full length, 420 aa
+Expect    : 1e-5
+Hitlist   : 100
+RID       : G2P1NN92014
+Submitted : 2026-11-21 14:07 local time
+
+Status at the time the report was built: still WAITING in the NCBI queue
+after >1 h (the public queue was heavily loaded). Retrieve it later with:
+
+  curl "https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=G2P1NN92014&FORMAT_TYPE=Text"
+
+The template search actually used for modelling is the RCSB sequence-search
+service (MMseqs2 profile search over the PDB), run on the same query:
+  query   : rcsb_query.json  (see q.json)
+  results : rcsb_hits.json -> rcsb_sequence_search.json -> template_table.csv
+Both searches answer the same question; the RCSB service returned 2000 hits
+with per-hit sequence identity and E-value immediately.

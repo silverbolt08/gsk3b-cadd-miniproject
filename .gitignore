@@ -1,0 +1,12 @@
+# Third-party tool binaries (582 MB) - download them yourself, see project/README.md
+tools/
+
+# Build artefact: regenerate with `python project/scripts/13_package.py`
+GSK3B_CADD_miniproject_data.zip
+
+# Python / editor noise
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.tmp
+~$*

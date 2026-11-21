@@ -1,0 +1,229 @@
+id,name,set,score,kind,resnum,resname,detail
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,hydrophobic,49,ALA,d=3.67
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,hydrophobic,98,LEU,d=3.94
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,hydrophobic,154,LEU,d=3.70
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,hydrophobic,154,LEU,d=3.50
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,hydrophobic,36,VAL,d=3.52
+ACT07,Indirubin-3'-Monoxime,known_active,-8.936,waterbridge,151,GLN,dAW=2.89 dDW=2.69
+ACT09,Tideglusib,known_active,-8.678,hbond,166,ASP,d=3.65 angle=100 protein-donor
+ACT09,Tideglusib,known_active,-8.678,hydrophobic,33,PHE,d=3.72
+ACT09,Tideglusib,known_active,-8.678,hydrophobic,49,ALA,d=3.43
+ACT09,Tideglusib,known_active,-8.678,hydrophobic,98,LEU,d=3.76
+ACT09,Tideglusib,known_active,-8.678,hydrophobic,154,LEU,d=3.83
+ACT09,Tideglusib,known_active,-8.678,hydrophobic,33,PHE,d=3.35
+ACT08,SB-415286,known_active,-8.547,hbond,166,ASP,d=3.74 angle=136 protein-donor
+ACT08,SB-415286,known_active,-8.547,hbond,151,GLN,d=3.08 angle=137 ligand-donor
+ACT08,SB-415286,known_active,-8.547,hydrophobic,36,VAL,d=3.69
+ACT08,SB-415286,known_active,-8.547,hydrophobic,98,LEU,d=3.76
+ACT03,Laduviglusib,known_active,-8.275,hbond,151,GLN,d=3.70 angle=133 protein-donor
+ACT03,Laduviglusib,known_active,-8.275,hbond,100,TYR,d=3.17 angle=114 protein-donor
+ACT03,Laduviglusib,known_active,-8.275,hbond,107,ARG,d=4.08 angle=116 protein-donor
+ACT03,Laduviglusib,known_active,-8.275,hbond,30,ASN,d=3.12 angle=106 ligand-donor
+ACT03,Laduviglusib,known_active,-8.275,hydrophobic,28,ILE,d=3.44
+ACT03,Laduviglusib,known_active,-8.275,hydrophobic,100,TYR,d=3.45
+ACT03,Laduviglusib,known_active,-8.275,waterbridge,166,ASP,dAW=3.97 dDW=2.98
+ACT06,SB-216763,known_active,-7.532,hbond,151,GLN,d=4.06 angle=147 protein-donor
+ACT06,SB-216763,known_active,-7.532,hydrophobic,33,PHE,d=3.45
+ACT10,AR-A014418,known_active,-7.141,hbond,30,ASN,d=3.20 angle=111 ligand-donor
+ACT10,AR-A014418,known_active,-7.141,hydrophobic,28,ILE,d=3.80
+ACT10,AR-A014418,known_active,-7.141,hydrophobic,36,VAL,d=3.84
+ACT10,AR-A014418,known_active,-7.141,hydrophobic,36,VAL,d=3.80
+ACT10,AR-A014418,known_active,-7.141,waterbridge,166,ASP,dAW=3.56 dDW=2.96
+ACT02,Alsterpaullone,known_active,-7.116,hydrophobic,28,ILE,d=3.73
+ACT02,Alsterpaullone,known_active,-7.116,hydrophobic,100,TYR,d=3.77
+ACT02,Alsterpaullone,known_active,-7.116,hydrophobic,154,LEU,d=3.99
+ACT02,Alsterpaullone,known_active,-7.116,hydrophobic,36,VAL,d=3.72
+ACT02,Alsterpaullone,known_active,-7.116,hydrophobic,49,ALA,d=3.25
+ACT02,Alsterpaullone,known_active,-7.116,waterbridge,166,ASP,dAW=2.82 dDW=2.96
+ACT01,LY-2090314,known_active,-7.042,hbond,149,LYS,d=3.31 angle=173 protein-donor
+ACT01,LY-2090314,known_active,-7.042,hydrophobic,36,VAL,d=3.01
+ACT01,LY-2090314,known_active,-7.042,hydrophobic,154,LEU,d=3.88
+ACT01,LY-2090314,known_active,-7.042,pication,149,LYS,d=3.76
+ACT05,Staurosporine,known_active,-6.953,hbond,186,ARG,d=3.02 angle=110 protein-donor
+ACT05,Staurosporine,known_active,-6.953,hydrophobic,149,LYS,d=3.38
+ACT05,Staurosporine,known_active,-6.953,hydrophobic,188,TYR,d=3.38
+ACT05,Staurosporine,known_active,-6.953,pistacking,106,TYR,d=5.06 type=T
+ACT04,Kenpaullone,known_active,-6.827,hydrophobic,100,TYR,d=3.62
+ACT04,Kenpaullone,known_active,-6.827,hydrophobic,28,ILE,d=3.49
+ACT04,Kenpaullone,known_active,-6.827,hydrophobic,36,VAL,d=3.87
+ACT04,Kenpaullone,known_active,-6.827,hydrophobic,49,ALA,d=3.23
+ACT04,Kenpaullone,known_active,-6.827,waterbridge,166,ASP,dAW=2.82 dDW=2.96
+ACT11,TDZD-8,known_active,-6.221,hbond,166,ASP,d=4.10 angle=130 protein-donor
+ACT11,TDZD-8,known_active,-6.221,hydrophobic,36,VAL,d=3.51
+LIG118,Withaferin A,B_natural_product,-9.299,hbond,149,LYS,d=2.85 angle=110 protein-donor
+LIG118,Withaferin A,B_natural_product,-9.299,hbond,32,SER,d=3.12 angle=128 protein-donor
+LIG118,Withaferin A,B_natural_product,-9.299,hbond,33,PHE,d=3.57 angle=172 protein-donor
+LIG118,Withaferin A,B_natural_product,-9.299,hbond,99,ASP,d=3.75 angle=142 ligand-donor
+LIG118,Withaferin A,B_natural_product,-9.299,hydrophobic,28,ILE,d=3.56
+LIG118,Withaferin A,B_natural_product,-9.299,hydrophobic,36,VAL,d=3.62
+LIG118,Withaferin A,B_natural_product,-9.299,hydrophobic,36,VAL,d=3.60
+LIG118,Withaferin A,B_natural_product,-9.299,hydrophobic,154,LEU,d=3.68
+LIG118,Withaferin A,B_natural_product,-9.299,waterbridge,166,ASP,dAW=2.55 dDW=2.96
+LIG074,Niraparib,A_approved_drug,-9.223,hbond,149,LYS,d=3.43 angle=138 protein-donor
+LIG074,Niraparib,A_approved_drug,-9.223,hbond,166,ASP,d=2.86 angle=119 protein-donor
+LIG074,Niraparib,A_approved_drug,-9.223,hbond,166,ASP,d=2.86 angle=151 ligand-donor
+LIG074,Niraparib,A_approved_drug,-9.223,hydrophobic,36,VAL,d=3.65
+LIG074,Niraparib,A_approved_drug,-9.223,hydrophobic,154,LEU,d=3.69
+LIG074,Niraparib,A_approved_drug,-9.223,hydrophobic,166,ASP,d=3.99
+LIG074,Niraparib,A_approved_drug,-9.223,hydrophobic,49,ALA,d=3.55
+LIG074,Niraparib,A_approved_drug,-9.223,hydrophobic,154,LEU,d=3.46
+LIG059,Capmatinib,A_approved_drug,-9.198,hbond,107,ARG,d=3.79 angle=123 protein-donor
+LIG059,Capmatinib,A_approved_drug,-9.198,hbond,166,ASP,d=3.01 angle=113 ligand-donor
+LIG059,Capmatinib,A_approved_drug,-9.198,hydrophobic,36,VAL,d=3.78
+LIG059,Capmatinib,A_approved_drug,-9.198,hydrophobic,104,THR,d=3.98
+LIG059,Capmatinib,A_approved_drug,-9.198,hydrophobic,154,LEU,d=3.57
+LIG059,Capmatinib,A_approved_drug,-9.198,hydrophobic,28,ILE,d=3.68
+LIG059,Capmatinib,A_approved_drug,-9.198,hydrophobic,100,TYR,d=3.42
+LIG059,Capmatinib,A_approved_drug,-9.198,pication,107,ARG,d=4.22
+LIG017,Sitagliptin,A_approved_drug,-8.655,hbond,151,GLN,d=3.50 angle=117 protein-donor
+LIG017,Sitagliptin,A_approved_drug,-8.655,hbond,166,ASP,d=3.79 angle=102 protein-donor
+LIG017,Sitagliptin,A_approved_drug,-8.655,hydrophobic,36,VAL,d=3.57
+LIG017,Sitagliptin,A_approved_drug,-8.655,waterbridge,166,ASP,dAW=3.43 dDW=2.96
+LIG017,Sitagliptin,A_approved_drug,-8.655,waterbridge,151,GLN,dAW=2.89 dDW=3.15
+LIG017,Sitagliptin,A_approved_drug,-8.655,halogen,99,ASP,d=3.27
+LIG056,Palonosetron,A_approved_drug,-8.564,hbond,166,ASP,d=3.57 angle=118 protein-donor
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,76,VAL,d=3.56
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,100,TYR,d=3.93
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,100,TYR,d=3.62
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,154,LEU,d=3.70
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,28,ILE,d=3.32
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,36,VAL,d=3.36
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,49,ALA,d=3.46
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,98,LEU,d=3.48
+LIG056,Palonosetron,A_approved_drug,-8.564,hydrophobic,154,LEU,d=3.47
+LIG068,Tofacitinib,A_approved_drug,-8.478,hbond,101,VAL,d=2.80 angle=169 protein-donor
+LIG068,Tofacitinib,A_approved_drug,-8.478,hbond,166,ASP,d=3.61 angle=130 protein-donor
+LIG068,Tofacitinib,A_approved_drug,-8.478,hbond,166,ASP,d=3.14 angle=108 ligand-donor
+LIG068,Tofacitinib,A_approved_drug,-8.478,hydrophobic,28,ILE,d=3.62
+LIG068,Tofacitinib,A_approved_drug,-8.478,hydrophobic,51,LYS,d=3.97
+LIG068,Tofacitinib,A_approved_drug,-8.478,hydrophobic,100,TYR,d=3.76
+LIG068,Tofacitinib,A_approved_drug,-8.478,hydrophobic,154,LEU,d=3.86
+LIG052,Rivaroxaban,A_approved_drug,-8.455,hbond,169,SER,d=3.18 angle=108 protein-donor
+LIG052,Rivaroxaban,A_approved_drug,-8.455,hydrophobic,33,PHE,d=3.53
+LIG052,Rivaroxaban,A_approved_drug,-8.455,hydrophobic,49,ALA,d=3.98
+LIG052,Rivaroxaban,A_approved_drug,-8.455,hydrophobic,154,LEU,d=3.84
+LIG093,Hesperetin,B_natural_product,-8.381,hbond,166,ASP,d=2.95 angle=145 protein-donor
+LIG093,Hesperetin,B_natural_product,-8.381,hbond,101,VAL,d=4.08 angle=145 protein-donor
+LIG093,Hesperetin,B_natural_product,-8.381,hbond,99,ASP,d=2.85 angle=134 ligand-donor
+LIG093,Hesperetin,B_natural_product,-8.381,hbond,101,VAL,d=2.88 angle=116 ligand-donor
+LIG093,Hesperetin,B_natural_product,-8.381,hbond,152,ASN,d=2.76 angle=163 ligand-donor
+LIG093,Hesperetin,B_natural_product,-8.381,hydrophobic,28,ILE,d=3.37
+LIG093,Hesperetin,B_natural_product,-8.381,hydrophobic,36,VAL,d=3.83
+LIG093,Hesperetin,B_natural_product,-8.381,hydrophobic,100,TYR,d=3.79
+LIG093,Hesperetin,B_natural_product,-8.381,hydrophobic,154,LEU,d=3.94
+LIG093,Hesperetin,B_natural_product,-8.381,hydrophobic,166,ASP,d=3.90
+LIG093,Hesperetin,B_natural_product,-8.381,waterbridge,166,ASP,dAW=3.16 dDW=2.96
+LIG090,Myricetin,B_natural_product,-8.374,hbond,166,ASP,d=3.85 angle=126 protein-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,166,ASP,d=2.95 angle=139 protein-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,101,VAL,d=3.57 angle=150 protein-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,99,ASP,d=2.89 angle=115 ligand-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,101,VAL,d=2.97 angle=112 ligand-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,152,ASN,d=2.81 angle=166 ligand-donor
+LIG090,Myricetin,B_natural_product,-8.374,hbond,166,ASP,d=4.07 angle=111 ligand-donor
+LIG090,Myricetin,B_natural_product,-8.374,hydrophobic,28,ILE,d=3.30
+LIG090,Myricetin,B_natural_product,-8.374,hydrophobic,36,VAL,d=3.68
+LIG090,Myricetin,B_natural_product,-8.374,hydrophobic,100,TYR,d=3.54
+LIG090,Myricetin,B_natural_product,-8.374,hydrophobic,154,LEU,d=3.85
+LIG070,Buspirone,A_approved_drug,-8.364,hbond,151,GLN,d=3.93 angle=119 protein-donor
+LIG070,Buspirone,A_approved_drug,-8.364,hbond,149,LYS,d=3.16 angle=169 protein-donor
+LIG070,Buspirone,A_approved_drug,-8.364,hbond,166,ASP,d=3.65 angle=104 protein-donor
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,33,PHE,d=3.68
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,36,VAL,d=3.54
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,36,VAL,d=3.51
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,154,LEU,d=3.19
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,154,LEU,d=3.55
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,28,ILE,d=3.44
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,49,ALA,d=3.41
+LIG070,Buspirone,A_approved_drug,-8.364,hydrophobic,100,TYR,d=3.29
+LIG070,Buspirone,A_approved_drug,-8.364,waterbridge,166,ASP,dAW=3.69 dDW=2.96
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,166,ASP,d=3.50 angle=109 protein-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,101,VAL,d=3.07 angle=166 protein-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,34,GLY,d=2.89 angle=107 protein-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,30,ASN,d=4.09 angle=126 protein-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,151,GLN,d=3.16 angle=135 protein-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,29,GLY,d=3.71 angle=153 ligand-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,30,ASN,d=3.80 angle=106 ligand-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,99,ASP,d=3.30 angle=173 ligand-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hbond,99,ASP,d=2.94 angle=160 ligand-donor
+LIG099,Rosmarinic Acid,B_natural_product,-8.36,hydrophobic,154,LEU,d=3.95
+LIG084,Luteolin,B_natural_product,-8.303,hbond,101,VAL,d=3.10 angle=151 protein-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,152,ASN,d=3.86 angle=108 protein-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,166,ASP,d=2.96 angle=157 protein-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,30,ASN,d=2.81 angle=101 ligand-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,99,ASP,d=2.81 angle=148 ligand-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,101,VAL,d=2.83 angle=111 ligand-donor
+LIG084,Luteolin,B_natural_product,-8.303,hbond,152,ASN,d=2.72 angle=170 ligand-donor
+LIG084,Luteolin,B_natural_product,-8.303,hydrophobic,28,ILE,d=3.91
+LIG084,Luteolin,B_natural_product,-8.303,hydrophobic,36,VAL,d=3.48
+LIG084,Luteolin,B_natural_product,-8.303,hydrophobic,49,ALA,d=3.78
+LIG084,Luteolin,B_natural_product,-8.303,hydrophobic,154,LEU,d=3.79
+LIG084,Luteolin,B_natural_product,-8.303,hydrophobic,166,ASP,d=3.83
+LIG055,Teneligliptin,A_approved_drug,-8.245,hbond,151,GLN,d=3.96 angle=120 protein-donor
+LIG055,Teneligliptin,A_approved_drug,-8.245,pistacking,33,PHE,d=4.78 type=T
+LIG055,Teneligliptin,A_approved_drug,-8.245,saltbridge,166,ASP,d=4.89
+LIG051,Cilostazol,A_approved_drug,-8.227,hbond,107,ARG,d=3.43 angle=128 protein-donor
+LIG051,Cilostazol,A_approved_drug,-8.227,hydrophobic,28,ILE,d=3.93
+LIG051,Cilostazol,A_approved_drug,-8.227,hydrophobic,36,VAL,d=3.61
+LIG051,Cilostazol,A_approved_drug,-8.227,hydrophobic,154,LEU,d=3.86
+LIG051,Cilostazol,A_approved_drug,-8.227,hydrophobic,36,VAL,d=3.66
+LIG051,Cilostazol,A_approved_drug,-8.227,hydrophobic,100,TYR,d=3.59
+LIG051,Cilostazol,A_approved_drug,-8.227,pication,107,ARG,d=4.25
+LIG051,Cilostazol,A_approved_drug,-8.227,waterbridge,166,ASP,dAW=3.34 dDW=3.08
+LIG051,Cilostazol,A_approved_drug,-8.227,waterbridge,166,ASP,dAW=3.97 dDW=3.08
+LIG086,Fisetin,B_natural_product,-8.212,hbond,101,VAL,d=4.04 angle=152 protein-donor
+LIG086,Fisetin,B_natural_product,-8.212,hbond,34,GLY,d=3.81 angle=135 protein-donor
+LIG086,Fisetin,B_natural_product,-8.212,hbond,34,GLY,d=3.32 angle=106 ligand-donor
+LIG086,Fisetin,B_natural_product,-8.212,hbond,99,ASP,d=3.04 angle=126 ligand-donor
+LIG086,Fisetin,B_natural_product,-8.212,hydrophobic,36,VAL,d=3.34
+LIG086,Fisetin,B_natural_product,-8.212,waterbridge,166,ASP,dAW=3.18 dDW=2.96
+LIG096,Catechin,B_natural_product,-8.202,hbond,101,VAL,d=3.44 angle=150 protein-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,166,ASP,d=3.00 angle=142 protein-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,166,ASP,d=3.78 angle=128 protein-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,99,ASP,d=2.84 angle=110 ligand-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,101,VAL,d=2.98 angle=108 ligand-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,152,ASN,d=2.79 angle=156 ligand-donor
+LIG096,Catechin,B_natural_product,-8.202,hbond,166,ASP,d=3.82 angle=110 ligand-donor
+LIG096,Catechin,B_natural_product,-8.202,hydrophobic,28,ILE,d=3.40
+LIG096,Catechin,B_natural_product,-8.202,hydrophobic,36,VAL,d=3.72
+LIG096,Catechin,B_natural_product,-8.202,hydrophobic,100,TYR,d=3.48
+LIG096,Catechin,B_natural_product,-8.202,hydrophobic,166,ASP,d=3.98
+LIG096,Catechin,B_natural_product,-8.202,hydrophobic,154,LEU,d=3.75
+LIG036,Ezetimibe,A_approved_drug,-8.173,hbond,149,LYS,d=3.30 angle=108 protein-donor
+LIG036,Ezetimibe,A_approved_drug,-8.173,hbond,29,GLY,d=3.13 angle=162 ligand-donor
+LIG036,Ezetimibe,A_approved_drug,-8.173,hydrophobic,154,LEU,d=3.55
+LIG036,Ezetimibe,A_approved_drug,-8.173,hydrophobic,36,VAL,d=3.34
+LIG083,Quercetin,B_natural_product,-8.167,hbond,166,ASP,d=3.76 angle=128 protein-donor
+LIG083,Quercetin,B_natural_product,-8.167,hbond,166,ASP,d=3.64 angle=114 protein-donor
+LIG083,Quercetin,B_natural_product,-8.167,hbond,101,VAL,d=3.46 angle=153 protein-donor
+LIG083,Quercetin,B_natural_product,-8.167,hbond,99,ASP,d=2.92 angle=109 ligand-donor
+LIG083,Quercetin,B_natural_product,-8.167,hbond,101,VAL,d=2.99 angle=109 ligand-donor
+LIG083,Quercetin,B_natural_product,-8.167,hbond,151,GLN,d=3.68 angle=151 ligand-donor
+LIG083,Quercetin,B_natural_product,-8.167,hydrophobic,28,ILE,d=3.37
+LIG083,Quercetin,B_natural_product,-8.167,hydrophobic,36,VAL,d=3.81
+LIG083,Quercetin,B_natural_product,-8.167,hydrophobic,100,TYR,d=3.48
+LIG083,Quercetin,B_natural_product,-8.167,hydrophobic,154,LEU,d=3.80
+LIG094,Baicalein,B_natural_product,-8.15,hbond,30,ASN,d=3.27 angle=107 protein-donor
+LIG094,Baicalein,B_natural_product,-8.15,hbond,166,ASP,d=2.91 angle=163 ligand-donor
+LIG094,Baicalein,B_natural_product,-8.15,hydrophobic,28,ILE,d=3.70
+LIG094,Baicalein,B_natural_product,-8.15,hydrophobic,36,VAL,d=3.96
+LIG094,Baicalein,B_natural_product,-8.15,hydrophobic,98,LEU,d=3.62
+LIG094,Baicalein,B_natural_product,-8.15,hydrophobic,49,ALA,d=3.45
+LIG094,Baicalein,B_natural_product,-8.15,hydrophobic,154,LEU,d=3.45
+LIG094,Baicalein,B_natural_product,-8.15,waterbridge,28,ILE,dAW=3.73 dDW=3.95
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,32,SER,d=3.03 angle=145 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,149,LYS,d=3.09 angle=134 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,152,ASN,d=4.05 angle=142 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,166,ASP,d=2.77 angle=124 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,151,GLN,d=3.10 angle=141 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,101,VAL,d=2.99 angle=152 protein-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,32,SER,d=3.04 angle=136 ligand-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,99,ASP,d=2.88 angle=150 ligand-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,101,VAL,d=2.97 angle=120 ligand-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,147,ASP,d=3.22 angle=137 ligand-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hbond,166,ASP,d=2.77 angle=140 ligand-donor
+LIG114,Oleuropein,B_natural_product,-8.141,hydrophobic,28,ILE,d=3.74
+LIG114,Oleuropein,B_natural_product,-8.141,hydrophobic,36,VAL,d=3.95
+LIG114,Oleuropein,B_natural_product,-8.141,hydrophobic,49,ALA,d=3.74
+LIG114,Oleuropein,B_natural_product,-8.141,hydrophobic,154,LEU,d=3.79
+LIG114,Oleuropein,B_natural_product,-8.141,saltbridge,149,LYS,d=4.66
+LIG114,Oleuropein,B_natural_product,-8.141,saltbridge,149,LYS,d=3.81

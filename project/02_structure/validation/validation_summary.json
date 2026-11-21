@@ -1,0 +1,26 @@
+{
+ "model": "gsk3b_model_best.pdb",
+ "rmsd": {
+  "n_common": 345,
+  "ca_rmsd_all": 0.429,
+  "ca_rmsd_pocket": 0.349,
+  "heavy_rmsd_pocket": 0.77,
+  "n_pocket": 24
+ },
+ "ramachandran_model": {
+  "label": "model",
+  "n": 348,
+  "favoured_pct": 98.6,
+  "allowed_pct": 1.4,
+  "outlier_pct": 0.0,
+  "outliers": []
+ },
+ "ramachandran_crystal": {
+  "label": "1Q5K_A",
+  "n": 339,
+  "favoured_pct": 97.1,
+  "allowed_pct": 2.9,
+  "outlier_pct": 0.0,
+  "outliers": []
+ }
+}

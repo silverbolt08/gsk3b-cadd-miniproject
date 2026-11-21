@@ -1,0 +1,69 @@
+{
+ "candidates": [
+  {
+   "id": "LIG068",
+   "name": "Tofacitinib",
+   "figure": "fig10_tofacitinib.png",
+   "what_it_is": "An approved JAK1/JAK3 inhibitor: an ATP-competitive pyrrolo[2,3-d]pyrimidine, MW 312, clogP 1.5, TPSA 89 Å². The only library compound passing all four criteria.",
+   "docking": "Rank 9 of 138 at −8.48 kcal/mol, ligand efficiency 0.369, CNS-MPO 3.8 of 4 — the best combination of score, efficiency and brain-likeness in the screen, and better than eight of the eleven controls. It is also the least surprising hit here: it is a kinase inhibitor, so an ATP-site pose is what it was built for.",
+   "interactions": "One almost ideal hinge hydrogen bond — the Val135 backbone NH donates at 2.80 Å with a 169° angle, the same anchor AR-A014418 uses in 1Q5K. Two further hydrogen bonds reach Asp200 of the DFG motif (3.14 and 3.61 Å), and the scaffold is sandwiched between Ile62 and Leu188, with contacts to Lys85 and Tyr134. The canonical kinase-inhibitor pattern, reproduced without the reversal seen in the redocking control.",
+   "mechanism": "Two nodes at once. At **node 4**, inhibiting GSK-3β lowers tau phosphorylation at the PHF epitopes, so tau stays on microtubules and tangle spread slows. At **node 6**, which our own slide listed as a drug node, JAK/STAT blockade damps microglial priming and the cytokine loop that strips synapses.",
+   "against": "Brain exposure: tofacitinib is a P-glycoprotein substrate with low CNS penetration, so CNS-MPO flatters it. Chronic systemic JAK inhibition in elderly patients carries boxed warnings for infection, thrombosis and malignancy. And the GSK-3β activity is predicted, not measured — published panels show it is quite JAK-selective. A validated starting scaffold, not a drug to repurpose as it stands.",
+   "figure_caption": "Tofacitinib (cyan) in the ATP site of the model. Blue dashes are hydrogen bonds, grey dashes hydrophobic contacts; small cyan spheres are the retained crystallographic waters. The Val135 hinge hydrogen bond (2.80 Å, 169°) is the anchor."
+  },
+  {
+   "id": "LIG093",
+   "name": "Hesperetin",
+   "figure": "fig11_hesperetin.png",
+   "what_it_is": "A citrus flavanone, the aglycone of hesperidin, with a sizeable literature in Alzheimer models. MW 302, clogP 2.5. Alone among the flavonoids in the top 20 it carries no PAINS or Brenk alert — its B ring is 3′-hydroxy-4′-methoxy, not a catechol.",
+   "docking": "Rank 11 at −8.38 kcal/mol, ligand efficiency 0.381 — better than eight of the eleven controls. Its CNS-MPO of 2.96 misses our 3.0 cut-off by a rounding error; we kept it because every flavonoid that clears the score cut-off fails the alert check instead.",
+   "interactions": "A bidentate hinge contact with Asp133 (2.85 Å) and Val135 (2.88 Å), both ligand-donated, plus hydrogen bonds to Asn186 (2.76 Å) and Asp200 (2.95 Å) and a water-mediated bridge to Asp200 through a retained crystallographic water; hydrophobic contacts to Ile62, Val70, Tyr134 and Leu188. This chromone-on-the-hinge geometry is the mode flavonoids adopt in published kinase co-crystals — weak independent support for the pose.",
+   "mechanism": "**Node 4**, partially. A modest chronic reduction in GSK-3β output is exactly the partial inhibition this target argues for, and a dietary flavanone is the one class that could plausibly be dosed for years; its antioxidant activity would also touch node 3. We claim no more: realistic flavanone potency on GSK-3β is micromolar, which blunts the node rather than blocking it.",
+   "against": "Potency — and this screen cannot tell micromolar from nanomolar. Hesperetin is heavily glucuronidated on first pass, so free brain concentrations are very low; flavonoids bind many kinases, so selectivity is unlikely; and its TPSA and three donors put it at the edge of CNS space.",
+   "figure_caption": "Hesperetin (cyan) in the ATP site. The chromone makes a bidentate hinge contact with Asp133 and Val135, and a retained water bridges the ligand to Asp200."
+  },
+  {
+   "id": "LIG084",
+   "name": "Luteolin",
+   "figure": "fig12_luteolin.png",
+   "what_it_is": "A dietary flavone, and the compound the Alzheimer natural-product literature claims most often. MW 286, clogP 2.3. The highest ligand efficiency of any hinge-binding compound profiled — and it carries a catechol, flagged by both the PAINS and Brenk filters.",
+   "docking": "Rank 15 at −8.30 kcal/mol, ligand efficiency 0.395: the best of any compound that also makes a hinge hydrogen bond, and better than eight of the eleven controls. Twelve PLIP interactions, seven of them hydrogen bonds — the densest network in the top 20.",
+   "interactions": "Bidentate hinge again — Asp133 at 2.81 Å, Val135 at 2.83 Å (ligand-donated) and 3.10 Å (protein-donated) — plus Asn186 (2.72 Å, near-linear), Asp200 (2.96 Å) and Asn64 on the glycine-rich loop (2.81 Å), with hydrophobic contacts to Ile62, Val70, Ala83 and Leu188. Every one of those residues is in the P2Rank pocket and the 1Q5K contact list.",
+   "mechanism": "**Node 4** by the same logic as hesperetin, with the addition that luteolin’s claimed anti-inflammatory activity reaches node 6 and its metal-chelating catechol touches node 3. Its claimed polypharmacology best matches our cascade — and for that reason its claims most need a selective assay rather than another disease model.",
+   "against": "The catechol. Catechols are redox-active, oxidise to quinones, chelate metals and appear as hits regardless of target; a docking score on one is weak evidence. Luteolin also has poor oral bioavailability and is rapidly conjugated. Of the three it is the most likely artefact, and needs a redox-interference counter-screen first.",
+   "figure_caption": "Luteolin (cyan) in the ATP site, with the densest hydrogen-bond network of the top 20: bidentate hinge (Asp133, Val135) plus Asn186, Asp200 and Asn64 on the glycine-rich loop."
+  }
+ ],
+ "limitations": [
+  "**The redocking control failed, and that sets the ceiling on everything else.** Vina ranks the reversed orientation of AR-A014418 first; the crystal pose, which the search does find once the conserved waters are present, comes twelfth. Scoring the crystal pose directly (−6.58 kcal/mol) against the reversed one (−7.67) locates the error in the scoring function, not the search. Every pose here is a hypothesis about reachable residues, not a claim about how the molecule sits.",
+  "**Score is not affinity, and the enrichment is weak.** Across eleven controls spanning three orders of magnitude of potency, the score barely tracks pChEMBL, and the ROC-AUC of 0.65 is only modestly better than chance. Differences of a few tenths of a kcal/mol between neighbouring compounds carry no information.",
+  "**The background is not a set of inactives.** Enrichment was measured against 127 library compounds that have simply never been tested on GSK-3β, and no property-matched decoy set (DUD-E, DEKOIS) was used, so even that modest AUC is an optimistic estimate.",
+  "**The receptor is rigid and inhibitor-shaped.** The glycine-rich loop and the Lys85–Glu97 pair move substantially between GSK-3β structures. A model built on three inhibitor complexes is pre-organised for inhibitor-like ligands and biased against anything needing an induced fit; no ensemble and no flexible side chains.",
+  "**The model is comparative, and the chemistry is simplified.** Target and templates are the same protein, so MODELLER completed two disordered loops rather than crossing a fold gap — 0.43 Å RMSD says the rebuild is clean, not that homology modelling solved anything hard. On the ligand side: one microspecies per molecule at pH 7.4, no tautomer enumeration, no Mg²⁺ (present in physiological Mg-ATP), and only ten waters, transplanted from a structure solved with a different ligand bound.",
+  "**Selectivity was not assessed at all.** GSK-3α shares essentially the whole ATP site and the CMGC kinases are close behind. Nothing here separates a GSK-3β inhibitor from a promiscuous kinase binder — one of our own controls, staurosporine, is exactly that.",
+  "**Two controls cannot be scored by this protocol by construction.** Tideglusib and TDZD-8 are non-ATP-competitive, so docking them into the ATP site is meaningless; their ranks (5th and 113th) should be read that way, and tideglusib's high rank is a warning about reading any single rank too hard.",
+  "**Repurposing and natural-product libraries bring their own traps.** Eighteen of the top forty compounds carry PAINS or Brenk alerts — mostly catechols and Michael acceptors — and such compounds are frequent hitters in real assays (`06_analysis/structural_alerts.csv`).",
+  "**Nothing here is experimental, and brain exposure is only estimated.** No MD, no free-energy calculation, no assay. The CNS-MPO-like score uses four of the six Wager terms and says nothing about P-glycoprotein efflux, which is what actually kills most CNS candidates."
+ ],
+ "next_steps": "The honest next step is not more docking. First, fix the known defect: rescore the retained poses with a function that is not charge-blind — MM-GBSA on short restrained minimisations, or a trained scoring model — and check whether AR-A014418’s crystal orientation then ranks first. A protocol that cannot pass its own positive control should not prioritise purchases. Second, re-run against an ensemble of three or four GSK-3β conformations and a property-matched decoy set, so the enrichment number means something. Third, counter-screen the three candidates against GSK-3α, CDK2, CDK5 and DYRK1A, because selectivity is the real liability of an ATP-site programme. Only then is a kinase assay on the three candidates — all commercially available — worth bench time, followed by a cellular tau-Ser396 phosphorylation readout, which is the measurement that connects back to node 4 of the cascade.",
+ "references": [
+  "Hooper C., Killick R., Lovestone S. (2008) The GSK3 hypothesis of Alzheimer's disease. J. Neurochem. 104, 1433-1439.",
+  "Lucas J.J., Hernandez F., Gomez-Ramos P., Moran M.A., Hen R., Avila J. (2001) Decreased nuclear beta-catenin, tau hyperphosphorylation and neurodegeneration in GSK-3beta conditional transgenic mice. EMBO J. 20, 27-39.",
+  "Phiel C.J., Wilson C.A., Lee V.M.-Y., Klein P.S. (2003) GSK-3alpha regulates production of Alzheimer's disease amyloid-beta peptides. Nature 423, 435-439.",
+  "Bhat R., Xue Y., Berg S., et al. (2003) Structural insights and biological effects of glycogen synthase kinase 3-specific inhibitor AR-A014418. J. Biol. Chem. 278, 45937-45945.",
+  "Lovestone S., Boada M., Dubois B., et al. (2015) A phase II trial of tideglusib in Alzheimer's disease. J. Alzheimers Dis. 45, 75-88.",
+  "ter Haar E., Coll J.T., Austen D.A., Hsiao H.-M., Swenson L., Jain J. (2001) Structure of GSK3beta reveals a primed phosphorylation mechanism. Nat. Struct. Biol. 8, 593-596.",
+  "Braak H., Braak E. (1991) Neuropathological stageing of Alzheimer-related changes. Acta Neuropathol. 82, 239-259.",
+  "Sali A., Blundell T.L. (1993) Comparative protein modelling by satisfaction of spatial restraints. J. Mol. Biol. 234, 779-815.",
+  "Shen M.-Y., Sali A. (2006) Statistical potential for assessment and prediction of protein structures. Protein Sci. 15, 2507-2524.",
+  "Krivak R., Hoksza D. (2018) P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure. J. Cheminform. 10, 39.",
+  "Jurrus E., Engel D., Star K., et al. (2018) Improvements to the APBS biomolecular solvation software suite (PDB2PQR). Protein Sci. 27, 112-128.",
+  "O'Boyle N.M., Banck M., James C.A., Morley C., Vandermeersch T., Hutchison G.R. (2011) Open Babel: an open chemical toolbox. J. Cheminform. 3, 33.",
+  "Eberhardt J., Santos-Martins D., Tillack A.F., Forli S. (2021) AutoDock Vina 1.2.0: new docking methods, expanded force field, and Python bindings. J. Chem. Inf. Model. 61, 3891-3898.",
+  "Adasme M.F., Linnemann K.L., Bolz S.N., Kaiser F., Salentin S., Haupt V.J., Schroeder M. (2021) PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucleic Acids Res. 49, W530-W534.",
+  "Wager T.T., Hou X., Verhoest P.R., Villalobos A. (2010) Moving beyond rules: the development of a central nervous system multiparameter optimization (CNS MPO) desirability tool. ACS Chem. Neurosci. 1, 435-449.",
+  "Zdrazil B., Felix E., Hunter F., et al. (2024) The ChEMBL database in 2023. Nucleic Acids Res. 52, D1180-D1192.",
+  "Berman H.M., Westbrook J., Feng Z., et al. (2000) The Protein Data Bank. Nucleic Acids Res. 28, 235-242."
+ ],
+ "rejected": "Three better-scoring compounds were rejected, and the reasons matter as much as the selections. **Withaferin A** (rank 1, −9.30) has a ligand efficiency of 0.273 — it buys its score with 34 heavy atoms — and carries a reactive epoxide and an enone: that is a reactivity hypothesis, not an inhibition hypothesis. **Niraparib** (rank 2) and **capmatinib** (rank 3) are excellent-scoring, ATP-site-shaped oncology drugs, but neither makes a hinge hydrogen bond in its pose, and both are poor CNS agents with toxicity no chronic neurodegeneration indication could absorb."
+}
